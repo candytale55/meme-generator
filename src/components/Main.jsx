@@ -1,12 +1,15 @@
 import { useState } from "react"
 
 export default function Main() {
-  // Define initial meme state with default text and image
+  
+  // Define initial meme state with default text and image (hardcoded)
   const [meme, setMeme] = useState({
     topText: "One does not simply",
     bottomText: "Walk into Mordor",
-    imageUrl: "http://i.imgflip.com/1bij.jpg"
+    imageUrl: "http://i.imgflip.com/1bij.jpg" 
   })
+  
+
 
   // Event handler for input changes
   function handleChange(event) {
